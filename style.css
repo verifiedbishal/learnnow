@@ -77,7 +77,7 @@ a.color__main:hover{
     font-size: 0;
     height: 3px;
     background-color: #fff;
-    width: 40px;
+    width: 30px;
 }
 
 @media(max-width:850px){
@@ -117,7 +117,7 @@ a.color__main:hover{
         cursor: pointer;
         z-index: 10;
         position: absolute;
-        right: 15px;
+        right: 20px;
         width: 50px;
         opacity: 0;
 
@@ -173,7 +173,7 @@ a.color__main:hover{
 
     .hamburger{
         top: 15px;
-        right: 15px;
+        right: 10px;
     }
     .nav__box{
         height: 60px;
@@ -262,12 +262,19 @@ input[type=checkbox]:checked ~ .nav__links--hide{
         margin: 0;
         height: calc(100vh - 60px);
         padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
     }
     .intro__head{
-        font-size: 40px;
+        font-size: 36px;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 15px;
     }
     .intro__body{
-        font-size: 28px;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 40px;
     }
     .intro__btn{
         font-weight: normal;
@@ -281,8 +288,8 @@ input[type=checkbox]:checked ~ .nav__links--hide{
     background-color: #000;
     color: #fff;
     width: 80%;
-    margin: 0 10%;
-    padding: 20px 100px;
+    margin: 10%;
+    padding: 50px 100px;
 }
 .details h1{
     font-size: 44px;
